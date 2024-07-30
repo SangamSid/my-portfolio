@@ -1,0 +1,12 @@
+.contactText{
+    animation-name: mycontact;
+    animation-duration: 2s;
+    }
+
+@keyframes mycontact{
+    0%   {
+        transform: translateX(-500px);
+      }
+      
+      100% {transform: translateX(0px)}
+}

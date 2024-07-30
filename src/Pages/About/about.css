@@ -1,0 +1,22 @@
+.aboutImage{
+animation-name: myimage;
+animation-duration: 2s;
+}
+@keyframes myimage {
+    0%   {
+        transform: translateX(-500px);
+      }
+      
+      100% {transform: translateX(0px)}
+}
+.aboutText{
+    animation-name: about;
+    animation-duration: 2s;
+    }
+    @keyframes about {
+        0%   {
+            transform: translateX(500px);
+          }
+          
+          100% {transform: translateX(0px)}
+    }
